@@ -1,0 +1,139 @@
+/* Colors and Fonts*/
+body {
+	color: black;
+	background-size: cover;
+	background-color: white;
+	background-image: url(images/marbre.jpg);
+	font-family: 'Lora', serif;
+	text-align: center;
+	font-size: 17px;
+
+}
+
+h1,h2{
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 15px 35px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 60px;
+	text-align: center;
+}
+h1 {
+	color: black;
+    font-weight: 900;
+    letter-spacing: 7px;
+    font-size: 35px;
+    background: white;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+h2 {
+	color:#474747;
+    font-weight: 400;
+    letter-spacing: 6px;
+    font-size: 20px;
+}
+a {
+	text-decoration: none;
+	color:#B22E25;
+	font-weight: 600;
+	font-size: 16px;
+}
+a:hover{
+	color: black;
+}
+
+/* Custom Design with Class*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center; 
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-red{
+	background-color:#B22E25;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-red:hover {
+background-color: black;
+color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+
+.list-inline:hoover i{
+	color: black;
+}
+
+/*Design Adjustment*/
+#introduction p{
+	margin-bottom: 40px;
+}
+
+#profile{
+	width: 250px;
+	text-justify: 50px;
+	border-radius: 10px;
+}
+#facebook{
+	color:#4267B2;
+	}
+
+#instagram{
+	color:#7E4E9A;
+}
+
+#pinterest{
+	color:#BC3127;
+}
+
+
+@media(max-width: 500px:
+	width: 300px
+	margin: 20px
+	)
+
+
+
+
+
+
+
+
+
+
+
+
